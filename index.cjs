@@ -1,7 +1,5 @@
 // index.cjs
 require("dotenv").config();
-const fetch = require("node-fetch"); // ✅ Corrige fetch
-globalThis.fetch = fetch; // Garante que fetch funciona globalmente
 
 const { Client, GatewayIntentBits, REST, Routes, SlashCommandBuilder, EmbedBuilder } = require("discord.js");
 
@@ -80,7 +78,7 @@ async function sendRedeemLogIfNew(client) {
 // =======================
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
-client.once("clientReady", async () => {
+client.once("ready", async () => {
   console.log(`✔ Online: ${client.user.tag}`);
 
   // Registra comandos
