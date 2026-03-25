@@ -1,10 +1,10 @@
 {
   "name": "zdg-bot",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.cjs",
   "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.cjs"
   },
   "dependencies": {
     "discord.js": "^14.17.0",
