@@ -1,7 +1,10 @@
 {
-  "name": "zdg-bot",
+  "name": "zdg-bot-final",
+  "version": "1.0.0",
   "type": "commonjs",
-  "scripts": { "start": "node index.cjs" },
+  "scripts": {
+    "start": "node index.cjs"
+  },
   "dependencies": {
     "discord.js": "^14.11.0",
     "dotenv": "^16.3.1",
