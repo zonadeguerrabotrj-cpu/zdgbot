@@ -1,15 +1,10 @@
 {
   "name": "zdg-bot",
-  "version": "1.0.0",
-  "main": "index.cjs",
-  "type": "module",
-  "scripts": {
-    "start": "node index.cjs"
-  },
+  "type": "commonjs",
+  "scripts": { "start": "node index.cjs" },
   "dependencies": {
-    "discord.js": "^14.17.0",
-    "express": "^4.18.2",
-    "node-fetch": "^3.3.2",
-    "dotenv": "^16.3.1"
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.3.1",
+    "node-fetch": "^3.3.2"
   }
 }
